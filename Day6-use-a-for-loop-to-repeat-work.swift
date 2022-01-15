@@ -29,3 +29,8 @@ for _ in 1...5 {
     lyric += " hate"
 }
 print(lyric)
+
+let names = ["Piper", "Alex", "Suzanne", "Gloria"]
+print(names[0])
+print(names[1...3])
+print(names[1...])
