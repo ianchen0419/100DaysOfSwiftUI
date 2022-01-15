@@ -2,24 +2,12 @@ import Cocoa
 
 //fizzbuzz
 
-//for i in 1...100 {
-//    if i % 3 == 0 && i % 5 != 0 {
-//        print("Fizz")
-//    } else if i % 5 == 0 && i % 3 != 0 {
-//        print("Buzz")
-//    } else if i % 3 == 0 && i % 5 == 0 {
-//        print("FizzBuss")
-//    } else {
-//        print(i)
-//    }
-//}
-
 for i in 1...100 {
-    if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
+    if i.isMultiple(of: 15) {
         print("FizzBuzz")
-    } else if i.isMultiple(of: 3) && !i.isMultiple(of:53) {
+    } else if i.isMultiple(of: 3) {
         print("Fizz")
-    } else if i.isMultiple(of: 5) && !i.isMultiple(of: 3) {
+    } else if i.isMultiple(of: 5) {
         print("Buss")
     } else {
         print(i)
