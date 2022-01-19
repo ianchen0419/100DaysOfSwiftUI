@@ -17,7 +17,7 @@ struct Employee {
     var vacationTaken = 0
     
     var vacationRemaining2: Int {
-        vacationAllocated - vacationTaken
+        return vacationAllocated - vacationTaken
     }
     
     var vacationRemaining: Int {
