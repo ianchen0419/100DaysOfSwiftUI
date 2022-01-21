@@ -36,28 +36,28 @@ if success {
 //print(account.funds)
 //account.funds -= 1000 //without private funds property is exposed externally
 
-//Swift don't neet to init property, because all property is initialized beforehand (all default value is filled)
+//Swift don't neet to memberwise property, because all property is assigned beforehand (all default value is filled)
 struct Dog1 {
-    var name: String = "Moo" //no need to init
+    var name: String = "Moo" //no need to memberwise
 }
 let moko1 = Dog1()
 
 struct Dog2 {
-    private var name: String = "Moo" //no need to init
+    private var name: String = "Moo" //no need to memberwise
 }
 let moko2 = Dog2()
 
-//Swift NEED to init property, because one of these isn't asssigned value beforehandly
+//Swift NEED to memberwise property, because one of these isn't asssigned value beforehandly
 struct Dog3 {
-    var name: String //need to init (because of no default value)
+    var name: String //need to memberwise (because of no default value)
 }
 let moko3 = Dog3(name: "Moko")
 
-//Swift need al init all property except wih private let (because Swift need to init var name, he also need to init others except with private let)
+//Swift need al init all property except wih private let (because Swift need to memberwise var name, he also need to memberwise others except with private let)
 struct Dog4 {
-    //private var age: Int = 6 //need to init (because of var name need init)
-    private let age: Int = 6 //no need to init (becaues he is private let)
-    var name: String //need to init (because of no default value)
+    //private var age: Int = 6 //need to memberwise (because of var name need init)
+    private let age: Int = 6 //no need to memberwise (becaues he is private let)
+    var name: String //need to memberwise (because of no default value)
 }
 let moko4 = Dog4(name: "Moko")
 
