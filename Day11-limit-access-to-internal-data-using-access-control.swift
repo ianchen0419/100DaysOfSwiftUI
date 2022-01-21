@@ -61,6 +61,15 @@ struct Dog4 {
 }
 let moko4 = Dog4(name: "Moko")
 
+struct Dog5 {
+    private var age: Int = 6
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+let moko5 = Dog5(name: "Moko")
+
 //Variadic functions
 func square(numbers: Int...) {
     for number in numbers {
