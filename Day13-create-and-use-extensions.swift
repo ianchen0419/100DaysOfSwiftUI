@@ -18,6 +18,8 @@ extension String {
     }
     
     var lines: [String] {
+        //return self.components(separatedBy: .newlines)
+        //components(separatedBy: .newlines)
         self.components(separatedBy: .newlines)
     }
 }
