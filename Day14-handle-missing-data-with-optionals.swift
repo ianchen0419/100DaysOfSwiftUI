@@ -48,3 +48,26 @@ if let number = number {
     //unwrappedNumber: Int
 }
 
+import Cocoa
+
+func findGreatestValuleInList(list: [Int]) -> Int? {
+    if list.count == 0 {
+        return nil
+    }
+    
+    var greatestValue = -1
+    for number in list {
+        if number > greatestValue {
+            greatestValue = number
+        }
+//        print(number)
+    }
+    
+    return greatestValue
+}
+//findGreatestValuleInList(list: [1, 2, 3, 1, 10, 4, 200])
+//findGreatestValuleInList(list: [])
+//findGreatestValuleInList(list: [-3, -2, -1, 0, 1, 100, 2])
+let maxx = [1, 2, 3].max() //Int?
+
+
