@@ -20,8 +20,10 @@ struct CornerRotateModifier: ViewModifier {
 
 extension AnyTransition {
     static var pivot: AnyTransition {
-        .modifier(active: CornerRotateModifier(amount: -90, anchor: .topLeading), identity: CornerRotateModifier(amount: 0, anchor: .bottomTrailing))
-        //identity: the opposite value
+        .modifier(
+            active: CornerRotateModifier(amount: -90, anchor: .topLeading),
+            identity: CornerRotateModifier(amount: 0, anchor: .topLeading)
+        )
     }
 }
 
@@ -38,12 +40,13 @@ struct ContentView: View {
             
             if isShowingRed {
                 Rectangle()
-                    .fill(.red)
+                    .fill(.blue)
                     .frame(width: 200, height: 200)
                     .transition(.pivot)
             }
         }
         .onTapGesture {
+            print(isShowingRed)
             withAnimation {
                 isShowingRed.toggle()
             }
