@@ -36,10 +36,10 @@ struct ContentView: View {
         //NS: NextStep company
         let range = NSRange(location: 0, length: word.utf16.count)
         
-        let missSpelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
+        let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
         //wrap: when checked finished, will you begin again?
         
-        let allGood = missSpelledRange.location == NSNotFound
+        let allGood = misspelledRange.location == NSNotFound
         
     }
 }
