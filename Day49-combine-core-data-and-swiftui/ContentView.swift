@@ -1,45 +1,37 @@
 //
 //  ContentView.swift
-//  CupcakeCorner
+//  Bookworm
 //
-//  Created by Yi An Chen on 2022/2/19.
+//  Created by Yi An Chen on 2022/2/20.
 //
 
 import SwiftUI
 
-
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
     
     var body: some View {
-//        AsyncImage(url: URL(string: "https://hws.dev/img/logo.png"), scale: 3)
-        
-//        AsyncImage(url: URL(string: "https://hws.dev/img/logo.png")) { image in
-//            image
-//                .resizable()
-//                .scaledToFit()
-//        } placeholder: {
-//           Color.red
-//            ProgressView()
-//        }
-//        .frame(width: 200, height: 200)
-        
-        AsyncImage(url: URL(string: "https://hws.dev/img/bad.png")) { phase in
-            if let image = phase.image {
-                //success
-                image
-                    .resizable()
-                    .scaledToFit()
-            } else if phase.error != nil {
-                //failure error
-                Text("There was an error loading the image.")
-            } else {
-                //still in progress
-                ProgressView()
+        VStack {
+            List(students) { student in
+                Text(student.name ?? "Unknown")
+            }
+            
+            Button("Add") {
+                let firstNames = ["Ginny", "Harry", "Hermione", "Luna", "Ron"]
+                let lastNames = ["Granger", "Lovegood", "Potter", "Weasley"]
+                
+                let chosenFirstName = firstNames.randomElement()!
+                let chosenLastName = lastNames.randomElement()!
+                
+                let student = Student(context: moc)
+                student.id = UUID()
+                student.name = "\(chosenFirstName) \(chosenLastName)"
+                
+                try? moc.save()
             }
         }
-        .frame(width: 200, height: 200)
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
