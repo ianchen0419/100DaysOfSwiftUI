@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var backgroundColor = Color.white
     
     var body: some View {
-        Text("1")
+        Text("Hello, world!")
             .frame(width: 300, height: 300)
             .background(backgroundColor)
             .onTapGesture {
