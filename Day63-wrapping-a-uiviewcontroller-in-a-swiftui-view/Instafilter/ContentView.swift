@@ -23,10 +23,17 @@ struct ContentView: View {
             image?
                 .resizable()
                 .scaledToFit()
-        }
-        
-        Button("Select Image") {
-            showingImagePicker = true
+            
+            Button("Select Image") {
+                showingImagePicker = true
+            }
+            
+            Button("Save Image") {
+                guard let inputImage = inputImage else { return }
+                
+                let imageSaver = ImageSaver()
+                imageSaver.writeToPhotoAlbum(image: inputImage)
+            }
         }
         .sheet(isPresented: $showingImagePicker) {
             ImagePicker(image: $inputImage)
@@ -38,7 +45,6 @@ struct ContentView: View {
     func loadImage() {
         guard let inputImage = inputImage else { return }
         image = Image(uiImage: inputImage)
-
     }
     
 
