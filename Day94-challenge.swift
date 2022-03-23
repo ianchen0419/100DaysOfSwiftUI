@@ -8,6 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    func scaleValue(geo: GeometryProxy, fullView: GeometryProxy) -> Double {
+        let distanceY = geo.frame(in: .global).midY - fullView.safeAreaInsets.top
+        let percentageY = distanceY / fullView.size.height
+        
+        if distanceY > fullView.frame(in: .global).midY {
+            return 1
+        } else {
+            let amount = percentageY + 0.5
+            return amount
+        }
+    }
+    
     
     var body: some View {
         GeometryReader { fullView in
