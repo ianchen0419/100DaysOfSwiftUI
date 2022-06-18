@@ -24,7 +24,7 @@
 |15|[BucketList](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/BucketList)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/BucketList/Documentation/demo.gif" width="120" />|
 |16|[FaceList](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/FaceList)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/FaceList/Documentation/demo.gif" width="120" />|
 |17|[HotProspects](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/HotProspects)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/HotProspects/Documentation/demo.gif" width="120" />|
-|18|[Flashzilla](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Flashzilla)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Flashzilla/Documentation/demo.gif" width="120" />|
+|18|[Flashzilla](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Flashzilla)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Flashzilla/Documentation/demo.gif" width="320" />|
 
 
 
