@@ -21,6 +21,7 @@
 |12|[Bookworm](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Bookworm)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Bookworm/Documentation/demo.gif" width="120" />|
 |13|[FriendFace](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/FriendFace)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/FriendFace/Documentation/demo.gif" width="120" />|
 |14|[Instafilter](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Instafilter)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Instafilter/Documentation/demo.gif" width="120" />|
+|15|[BucketList](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/BucketList)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/BucketList/Documentation/demo.gif" width="120" />|
 
 
 
