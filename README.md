@@ -1,4 +1,4 @@
-# 100DaysOfSwiftUI
+# 100 Days Of SwiftUI
 
 ## Requirements
 * Xcode 13.2
