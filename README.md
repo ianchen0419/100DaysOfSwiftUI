@@ -16,6 +16,9 @@
 |7|[Edutainment](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Edutainment)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Edutainment/Documentation/demo.gif" width="120" />|
 |8|[iExpense](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/iExpense)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/iExpense/Documentation/demo.gif" width="120" />|
 |9|[Moonshot](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Moonshot)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Moonshot/Documentation/demo.gif" width="120" />|
+|10|[HabitTracking](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/HabitTracking)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/HabitTracking/Documentation/demo.gif" width="120" />|
+
+
 
 
 
