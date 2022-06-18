@@ -19,6 +19,7 @@
 |10|[HabitTracking](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/HabitTracking)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/HabitTracking/Documentation/demo.gif" width="120" />|
 |11|[CupcakeCorner](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/CupcakeCorner)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/CupcakeCorner/Documentation/demo.gif" width="120" />|
 |12|[Bookworm](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Bookworm)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Bookworm/Documentation/demo.gif" width="120" />|
+|13|[FriendFace](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/FriendFace)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/FriendFace/Documentation/demo.gif" width="120" />|
 
 
 
