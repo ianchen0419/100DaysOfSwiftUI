@@ -13,6 +13,7 @@
 |4|[RockPaperScissors](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/RockPaperScissors)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/RockPaperScissors/Documentation/demo.gif" width="120" />|
 |5|[BetterRest](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/BetterRest)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/BetterRest/Documentation/demo.gif" width="120" />|
 |6|[WordScramble](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/WordScramble)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/WordScramble/Documentation/demo.gif" width="120" />|
+|7|[Edutainment](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Edutainment)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Edutainment/Documentation/demo.gif" width="120" />|
 
 
 
