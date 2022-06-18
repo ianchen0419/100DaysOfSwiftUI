@@ -12,5 +12,8 @@
 |3|[GuessTheFlag](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/GuessTheFlag)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/GuessTheFlag/Documentation/demo.gif" width="120" />|
 |4|[RockPaperScissors](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/RockPaperScissors)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/RockPaperScissors/Documentation/demo.gif" width="120" />|
 |5|[BetterRest](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/BetterRest)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/BetterRest/Documentation/demo.gif" width="120" />|
+|6|[WordScramble](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/WordScramble)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/WordScramble/Documentation/demo.gif" width="120" />|
+
+
 
 
