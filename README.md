@@ -23,7 +23,6 @@
 |14|[Instafilter](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/Instafilter)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/Instafilter/Documentation/demo.gif" width="120" />|
 |15|[BucketList](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/BucketList)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/BucketList/Documentation/demo.gif" width="120" />|
 |16|[FaceList](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/FaceList)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/FaceList/Documentation/demo.gif" width="120" />|
-
 |17|[HotProspects](https://github.com/ianchen0419/SwiftUI-100/tree/main/projects/HotProspects)|<img src="https://github.com/ianchen0419/SwiftUI-100/raw/main/projects/HotProspects/Documentation/demo.gif" width="120" />|
 
 
